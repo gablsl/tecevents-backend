@@ -26,6 +26,8 @@ public class Address {
     @GeneratedValue
     private UUID id;
 
+    private String city;
+
     private String uf;
 
     @ManyToOne
